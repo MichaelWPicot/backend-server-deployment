@@ -1,14 +1,16 @@
-# Starter: Backend Deployment
+# CORS Backend Implementation
 
-This is starter code for the Back End Deployment module. Follow the instructions below to get everything up and running.
 
-This repo was adapted from [this repository](https://github.com/Thinkful-Ed/starter-back-end-deployment) to work with Vercel's most recent updates.
+## Table of Contents
+* [Description](#description)
+* [Questions](#questions)
 
-## Instructions
+## Description
+This project focused on utilizing node, express.js and CORS to handle the back end data while allowing defined cross-origin resource sharing. This application utilizes routers and controllers to handle the dishes and orders data sets and to update them dynamically based off of user requests.
 
-1. Fork and clone this repository.
-1. Run `cp .env.sample .env`.
-1. Update your `.env` file with a connection URL to your database.
-1. Run `npm install`.
-1. Run `npx knex migrate:latest`.
-1. Run `npx knex seed:run`.
+This application has been deployed to render and a back-end CORS request implementation can be seen below:
+
+`https://backend-server-depolyment.onrender.com/api/products`
+
+## Questions
+Questions? Reach out at [github.com/michaelwpicot](github.com/michaelwpicot)
